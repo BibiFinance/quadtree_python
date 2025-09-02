@@ -48,8 +48,8 @@ A partir du fichier `files/quadtree.txt`, générez le QuadTree associé.
 Puis, réalisez une interface graphique en utilisant la classe `TkQuadTree`, permettant de la représenter. 
 
 Bonus : 
-Remplacez les valeurs binaires des feuilles par des valeurs numériques, combinez celà à un [tileset](https://docs.godotengine.org/en/stable/_images/using_tilesets_kenney_abstract_platformer_tile_sheet.webp). 
-Et voilà, vous avez généré votre tilemap par le biais d'un quadtree.
+Faites le module inverse: A partir d'une image donnée, convertissez la en image noir et blanc, puis générez le fichier plat correspondant.
+
 
 ## Livraison :
 Livrez votre projet via un dépôt git et communiquez l'url de votre dépôt au formateur. 
