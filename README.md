@@ -17,18 +17,18 @@ Un noeud à quatre fils est représenté :
 from __future__ import annotations
 
 class QuadTree:
-    def __init(hg: bool|QuadTree, hd: bool|QuadTree, bg: bool|QuadTree, bd: bool|QuadTree):
+    def __init(top_left: bool|QuadTree, top_right: bool|QuadTree, bottom_left: bool|QuadTree, bottom_right: bool|QuadTree):
         pass
     @property
     def depth(self) -> int:
         """ Recursion depth of the quadtree"""
         return 1
     @staticmethod
-    def fromFile(filename):
+    def from_file(filename):
         # Your code here
         pass
     @staticmethod
-    def fromList(data):
+    def from_list(data):
         pass 
     
     def paint(self):
